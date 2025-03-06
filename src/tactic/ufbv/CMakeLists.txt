@@ -4,6 +4,7 @@ z3_add_component(ufbv_tactic
     quasi_macros_tactic.cpp
     ufbv_rewriter_tactic.cpp
     ufbv_tactic.cpp
+    xpto_tactic.cpp
   COMPONENT_DEPENDENCIES
     core_tactics
     macros
@@ -15,4 +16,5 @@ z3_add_component(ufbv_tactic
     quasi_macros_tactic.h
     ufbv_rewriter_tactic.h
     ufbv_tactic.h
+    xpto_tactic.h
 )

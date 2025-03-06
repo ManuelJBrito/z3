@@ -29,6 +29,7 @@ Notes:
 #include "tactic/ufbv/ufbv_rewriter_tactic.h"
 #include "tactic/ufbv/quasi_macros_tactic.h"
 #include "tactic/ufbv/ufbv_tactic.h"
+#include "tactic/ufbv/xpto_tactic.h"
 
 
 static tactic * mk_der_fp_tactic(ast_manager & m, params_ref const & p) {
